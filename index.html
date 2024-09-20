@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DinBox TV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-sticky navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.png" alt="DinBox TV Logo" />
+        </a>
+        <div class="d-flex ms-auto align-items-center">
+          <button class="btn btn-signin me-3">Sign In</button>
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="languageDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              EN
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
+              <li><a class="dropdown-item" href="#">RO</a></li>
+              <li><a class="dropdown-item" href="#">EN</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="page">
+      <section class="banner">
+        <div class="container">
+          <div class="row align-items-left">
+            <div class="col-lg-8">
+              <h1>Enjoy the best TV shows, movies and series live</h1>
+              <p>
+                Welcome to the new era of service with DinBox.TV: Your
+                satisfaction is our pride and priority. <br />
+                Enjoy our service for almost free, paying just 1 euro per month
+                for traffic!
+              </p>
+              <div class="banner-buttons">
+                <a href="#" class="btn btn-registration">Registration</a>
+                <a href="#" class="btn btn-link text-white ms-3"
+                  >Bring A Friend
+                  <svg
+                    width="44"
+                    height="22"
+                    viewBox="0 0 44 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 9.6C1.2268 9.6 0.6 10.2268 0.6 11C0.6 11.7732 1.2268 12.4 2 12.4V9.6ZM42.9899 11.9899C43.5367 11.4432 43.5367 10.5568 42.9899 10.0101L34.0804 1.1005C33.5337 0.553771 32.6472 0.553771 32.1005 1.1005C31.5538 1.64724 31.5538 2.53367 32.1005 3.0804L40.0201 11L32.1005 18.9196C31.5538 19.4663 31.5538 20.3528 32.1005 20.8995C32.6472 21.4462 33.5337 21.4462 34.0804 20.8995L42.9899 11.9899ZM2 12.4H42V9.6H2V12.4Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <div class="carousel-slide">
+                      <img
+                        src="./assets/svgs/icon-1.svg"
+                        width="51"
+                        height="52"
+                        alt="Icon-1"
+                      />
+
+                      <h4>Movies, series and shows</h4>
+                      <p>
+                        Access to all national TV channels and the video library
+                        of films and series.
+                      </p>
+                    </div>
+                    <div class="line-gap"></div>
+                    <div class="carousel-slide">
+                      <img
+                        src="./assets/svgs/icon-2.svg"
+                        width="51"
+                        height="52"
+                        alt="Icon-2"
+                      />
+
+                      <h4>Trusted Company</h4>
+                      <p>
+                        The satisfaction and trust of our subscribers comes
+                        first.
+                      </p>
+                    </div>
+                    <div class="line-gap"></div>
+
+                    <div class="carousel-slide">
+                      <img
+                        src="./assets/svgs/icon-3.svg"
+                        width="51"
+                        height="52"
+                        alt="Icon-2"
+                      />
+
+                      <h4>24/7 Support</h4>
+                      <p>
+                        You can always contact us through the medium that is
+                        most convenient for you.
+                        <a href="mail:info@dinbox.tv"
+                          ><span
+                            class="__cf_email__"
+                            data-cfemail="2e474048416e4a47404c4156005a58"
+                            >info@dinbox.com</span
+                          ></a
+                        >
+                      </p>
+                    </div>
+                    <div class="carousel-slide">
+                      <img
+                        src="./assets/svgs/icon-4.svg"
+                        width="51"
+                        height="52"
+                        alt="Icon-2"
+                      />
+
+                      <h4>Archive Up to 7 Days</h4>
+                      <p>
+                        Access to all national TV channels and a video library
+                        of movies and series
+                      </p>
+                    </div>
+                    <div class="line-gap"></div>
+
+                    <div class="carousel-slide">
+                      <img
+                        src="./assets/svgs/icon-5.svg"
+                        width="51"
+                        height="52"
+                        alt="Icon-2"
+                      />
+
+                      <h4>Uninterrupted</h4>
+                      <p>
+                        ABR system, watch your favorite TV channels without
+                        interruptions
+                      </p>
+                    </div>
+                    <div class="line-gap"></div>
+
+                    <div class="carousel-slide">
+                      <img
+                        src="./assets/svgs/icon-6.svg"
+                        width="51"
+                        height="52"
+                        alt="Icon-2"
+                      />
+                      <h4>Multiplatform App</h4>
+                      <p>
+                        Watch your favorite TV channels on various platforms at
+                        any time
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 image-container">
+              <img src="./assets/img/banner-popcorn.png" alt="Popcorn Image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="smart">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="smart-text">
+                <h1>SMARTIER THAN EVER</h1>
+                <p>
+                  IPTV has never been so close to you. You just need to install
+                  it on your TV.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 align-items-center">
+              <div class="container py-3">
+                <div id="testimonialCarousel" class="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="card shadow-sm rounded-4 p-2">
+                        <div class="quotes display-2 text-body-tertiary"></div>
+                        <div class="card-body">
+                          <img src="./assets/img/card-1.png" alt="" />
+                          <a href="">Press for more info</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card shadow-sm rounded-4 p-2">
+                        <div class="quotes display-2 text-body-tertiary"></div>
+                        <div class="card-body">
+                          <img src="./assets/img/card-2.png" alt="" />
+                          <a href="">Press for more info</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card shadow-sm rounded-4 p-2">
+                        <div class="quotes display-2 text-body-tertiary"></div>
+                        <div class="card-body">
+                          <img src="./assets/img/card-3.png" alt="" />
+                          <a href="">Press for more info</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card shadow-sm rounded-4 p-2">
+                        <div class="quotes display-2 text-body-tertiary"></div>
+                        <div class="card-body">
+                          <img src="./assets/img/card-4.png" alt="" />
+                          <a href="">Press for more info</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card shadow-sm rounded-4 p-2">
+                        <div class="quotes display-2 text-body-tertiary"></div>
+                        <div class="card-body">
+                          <img src="./assets/img/card-5.png" alt="" />
+                          <a href="">Press for more info</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card shadow-sm rounded-4 p-2">
+                        <div class="quotes display-2 text-body-tertiary"></div>
+                        <div class="card-body">
+                          <img src="./assets/img/card-6.png" alt="" />
+                          <a href="">Press for more info</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-controls">
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#testimonialCarousel"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#testimonialCarousel"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="homeabout">
+        <div class="container">
+            <div class="row">
+                <!-- Left Content -->
+                <div class="col-lg-7 left-content">
+                    <h2>DinBox.TV is easily accessible and very convenient for you</h2>
+                    <p class="description">
+                        Subscribe to the widest media library of movies, shows, and series. 
+                        Enjoy the highest quality video content on the market.
+                    </p>
+                    <div class="features">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <img src="./assets/svgs/hd.svg" alt="">
+                                    <h5 class="feature-subtitle">FHD & 4K UHD</h5>
+                                    <p class="feature-description">
+                                        DinBox offers you Romanian TV channels in the best quality.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                  <img src="./assets/svgs/star.svg" alt="">
+                                    <h5 class="feature-subtitle">Over 400 TV channels</h5>
+                                    <p class="feature-description">
+                                        Packages of the best Romanian and foreign TV channels at 
+                                        reasonable prices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Content -->
+                <div class="col-lg-5 right-content">
+                    <img src="./assets/img/popcorn.png" alt="Popcorn" class="popcorn-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+      <!-- Footer -->
+      <footer class="footer text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 left">
+              <img
+                src="./assets/img/logo.png"
+                alt="Logo"
+                class="img-fluid mb-2"
+              />
+              <div></div>
+              <a
+                >Email for legally relevant messages:
+                <p color>info@dinbox.tv</p>
+                <p>payments@dinbox.tv</p>
+                <p style="color: #fb7932">© 2023 - 2024 Dinbox.TV</p>
+              </a>
+            </div>
+
+            <div class="col-lg-6 text-end right">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#" class="text-white">About us</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-white">Become a Reseller</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-white">Terms and Conditions</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-white">Privacy Policy</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-white">FAQs</a>
+                </li>
+              </ul>
+              <div class="mt-3 google-play">
+                <a href="#" class="btn btn-outline-light btn-sm">
+                  <img src="./assets/svgs/google-play.svg" alt="" />
+                  Google Play</a
+                >
+              </div>
+              <div class="mt-3 accounts">
+                <img
+                  src="./assets/img/master.png"
+                  alt="Mastercard"
+                  class="img-fluid"
+                />
+                <img src="./assets/img/visa.png" alt="Visa" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
